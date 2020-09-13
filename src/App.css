@@ -1,0 +1,32 @@
+.App{
+  text-align: center;
+  background-color: lightslategrey;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App ol li {
+  margin: 10px;
+  font-size: 1.2ems;
+}
+
+.todo-input {
+  padding: 2px;
+  min-width: 250px;
+  min-height: 25px;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.save-button {
+  font-size: 1.2em;
+}
+
+@media (max-width: 700px){
+.todo-content {
+  width: 95%;
+ }
+}
